@@ -1,0 +1,26 @@
+{
+  "name": "challenge-backend",
+  "version": "1.0.0",
+  "description": "Event Management System with performance and resilience optimizations",
+  "main": "services/index.js",
+  "scripts": {
+    "start": "node services",
+    "dev": "node --watch services",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Tests to be implemented\" && exit 0"
+  },
+  "keywords": ["fastify", "event-management", "circuit-breaker"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "msw": "^2.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
